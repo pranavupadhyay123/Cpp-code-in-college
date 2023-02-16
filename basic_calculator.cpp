@@ -16,13 +16,13 @@ int main()
     if (oper == '+'){
         cout<<"the addition of above number is" <<num1+num2;
     }
-    if else (oper == '-'){
+    else if  (oper == '-'){
         cout<<"the subtraction of above number is" <<num1-num2;
     }
-    if else (oper == '/'){
+    else if (oper == '/'){
         cout<<"the division of above number is" <<num1/num2;
     }
-    if else (oper == '*'){
+    else if (oper == '*'){
         cout<<"the multiplication of above number is" <<num1*num2;
     }
     else{
